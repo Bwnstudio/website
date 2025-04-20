@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BWN Studio - Marketing Agency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #111;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #fff;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 2rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      padding: 6rem 2rem;
+      text-align: center;
+      background: linear-gradient(to right, #000, #222);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #bbb;
+      max-width: 600px;
+      margin: auto;
+    }
+    .section {
+      padding: 4rem 2rem;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #111;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+    }
+    .footer {
+      background: #111;
+      padding: 2rem;
+      text-align: center;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">BWN Studio</div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Elevate Your Brand with BWN Studio</h1>
+    <p>Creative marketing and digital solutions for brands looking to make a global impact.</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Digital Marketing</h3>
+        <p>From SEO to paid campaigns, we help you reach the right audience.</p>
+      </div>
+      <div class="card">
+        <h3>Brand Strategy</h3>
+        <p>Develop a cohesive identity that speaks to your target market.</p>
+      </div>
+      <div class="card">
+        <h3>Content Creation</h3>
+        <p>Visuals and stories that resonate with emotion and clarity.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>BWN Studio and Production is based in Burdwan, West Bengal. We specialize in wedding photography and digital marketing, blending creativity with strategy to deliver premium results worldwide.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email us at <a href="mailto:hello@bwnstudio.com" style="color: #fff; text-decoration: underline;">hello@bwnstudio.com</a></p>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 BWN Studio and Production. All rights reserved.
+  </footer>
+</body>
+</html>
